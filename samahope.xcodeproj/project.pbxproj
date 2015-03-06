@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB957D0E1AAA700F007037A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB957D0D1AAA700F007037A6 /* AppDelegate.swift */; };
+		EB957D101AAA700F007037A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB957D0F1AAA700F007037A6 /* ViewController.swift */; };
+		EB957D131AAA700F007037A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB957D111AAA700F007037A6 /* Main.storyboard */; };
+		EB957D151AAA700F007037A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB957D141AAA700F007037A6 /* Images.xcassets */; };
+		EB957D181AAA700F007037A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB957D161AAA700F007037A6 /* LaunchScreen.xib */; };
+		EB957D241AAA700F007037A6 /* samahopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB957D231AAA700F007037A6 /* samahopeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB957D1E1AAA700F007037A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB957D001AAA700F007037A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB957D071AAA700F007037A6;
+			remoteInfo = samahope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB957D081AAA700F007037A6 /* samahope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samahope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB957D0C1AAA700F007037A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB957D0D1AAA700F007037A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB957D0F1AAA700F007037A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB957D121AAA700F007037A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB957D141AAA700F007037A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB957D171AAA700F007037A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EB957D1D1AAA700F007037A6 /* samahopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = samahopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB957D221AAA700F007037A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB957D231AAA700F007037A6 /* samahopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = samahopeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB957D051AAA700F007037A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB957D1A1AAA700F007037A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB957CFF1AAA700F007037A6 = {
+			isa = PBXGroup;
+			children = (
+				EB957D0A1AAA700F007037A6 /* samahope */,
+				EB957D201AAA700F007037A6 /* samahopeTests */,
+				EB957D091AAA700F007037A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB957D091AAA700F007037A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB957D081AAA700F007037A6 /* samahope.app */,
+				EB957D1D1AAA700F007037A6 /* samahopeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB957D0A1AAA700F007037A6 /* samahope */ = {
+			isa = PBXGroup;
+			children = (
+				EB957D0D1AAA700F007037A6 /* AppDelegate.swift */,
+				EB957D0F1AAA700F007037A6 /* ViewController.swift */,
+				EB957D111AAA700F007037A6 /* Main.storyboard */,
+				EB957D141AAA700F007037A6 /* Images.xcassets */,
+				EB957D161AAA700F007037A6 /* LaunchScreen.xib */,
+				EB957D0B1AAA700F007037A6 /* Supporting Files */,
+			);
+			path = samahope;
+			sourceTree = "<group>";
+		};
+		EB957D0B1AAA700F007037A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB957D0C1AAA700F007037A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB957D201AAA700F007037A6 /* samahopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB957D231AAA700F007037A6 /* samahopeTests.swift */,
+				EB957D211AAA700F007037A6 /* Supporting Files */,
+			);
+			path = samahopeTests;
+			sourceTree = "<group>";
+		};
+		EB957D211AAA700F007037A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB957D221AAA700F007037A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB957D071AAA700F007037A6 /* samahope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB957D271AAA700F007037A6 /* Build configuration list for PBXNativeTarget "samahope" */;
+			buildPhases = (
+				EB957D041AAA700F007037A6 /* Sources */,
+				EB957D051AAA700F007037A6 /* Frameworks */,
+				EB957D061AAA700F007037A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = samahope;
+			productName = samahope;
+			productReference = EB957D081AAA700F007037A6 /* samahope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB957D1C1AAA700F007037A6 /* samahopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB957D2A1AAA700F007037A6 /* Build configuration list for PBXNativeTarget "samahopeTests" */;
+			buildPhases = (
+				EB957D191AAA700F007037A6 /* Sources */,
+				EB957D1A1AAA700F007037A6 /* Frameworks */,
+				EB957D1B1AAA700F007037A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB957D1F1AAA700F007037A6 /* PBXTargetDependency */,
+			);
+			name = samahopeTests;
+			productName = samahopeTests;
+			productReference = EB957D1D1AAA700F007037A6 /* samahopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB957D001AAA700F007037A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Codepath;
+				TargetAttributes = {
+					EB957D071AAA700F007037A6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EB957D1C1AAA700F007037A6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EB957D071AAA700F007037A6;
+					};
+				};
+			};
+			buildConfigurationList = EB957D031AAA700F007037A6 /* Build configuration list for PBXProject "samahope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB957CFF1AAA700F007037A6;
+			productRefGroup = EB957D091AAA700F007037A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB957D071AAA700F007037A6 /* samahope */,
+				EB957D1C1AAA700F007037A6 /* samahopeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB957D061AAA700F007037A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB957D131AAA700F007037A6 /* Main.storyboard in Resources */,
+				EB957D181AAA700F007037A6 /* LaunchScreen.xib in Resources */,
+				EB957D151AAA700F007037A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB957D1B1AAA700F007037A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB957D041AAA700F007037A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB957D101AAA700F007037A6 /* ViewController.swift in Sources */,
+				EB957D0E1AAA700F007037A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB957D191AAA700F007037A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB957D241AAA700F007037A6 /* samahopeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB957D1F1AAA700F007037A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB957D071AAA700F007037A6 /* samahope */;
+			targetProxy = EB957D1E1AAA700F007037A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB957D111AAA700F007037A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB957D121AAA700F007037A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB957D161AAA700F007037A6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB957D171AAA700F007037A6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB957D251AAA700F007037A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB957D261AAA700F007037A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB957D281AAA700F007037A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = samahope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB957D291AAA700F007037A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = samahope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB957D2B1AAA700F007037A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = samahopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/samahope.app/samahope";
+			};
+			name = Debug;
+		};
+		EB957D2C1AAA700F007037A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = samahopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/samahope.app/samahope";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB957D031AAA700F007037A6 /* Build configuration list for PBXProject "samahope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB957D251AAA700F007037A6 /* Debug */,
+				EB957D261AAA700F007037A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB957D271AAA700F007037A6 /* Build configuration list for PBXNativeTarget "samahope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB957D281AAA700F007037A6 /* Debug */,
+				EB957D291AAA700F007037A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB957D2A1AAA700F007037A6 /* Build configuration list for PBXNativeTarget "samahopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB957D2B1AAA700F007037A6 /* Debug */,
+				EB957D2C1AAA700F007037A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB957D001AAA700F007037A6 /* Project object */;
+}
