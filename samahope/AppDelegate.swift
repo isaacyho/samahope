@@ -15,7 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+    Parse.setApplicationId("Oz5dstQ42Z3UQoau7JdbIZaS1PJLo3JyDaOU8cMd",
+            clientKey: "VZpD5J8u6azzxkvHTGbhNe2uJpusto5aHzPobNiF")
+        PFUser.enableAutomaticUser()
+        
+        var defaultACL = PFACL()
+        // If you would like all objects to be private by default, remove this line.
+        defaultACL.setPublicReadAccess(true)
+        PFACL.setDefaultACL(defaultACL, withAccessForCurrentUser: true)
+        
+        //ParseClient.buildTestDb()
+        
+        var e = ParseClient.loadEvents()
+        
         return true
     }
 

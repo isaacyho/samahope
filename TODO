@@ -1,0 +1,9 @@
+- Object model:
+*Project*
+many to many events  ( Pointer )
+
+*Event*
+many to many with project - array[]
+
+
+https://parse.com/questions/array-of-pointer
