@@ -9,24 +9,20 @@
 import Foundation
 
 class Project : PFObject, PFSubclassing {
-    @NSManaged var name: String?
-    @NSManaged var shortDescription: String?
-    @NSManaged var longDescription: String?
-    @NSManaged var startDate: String?
-    @NSManaged var mainImageUrl: String?
-    @NSManaged var secondaryImageUrl: String?
-    @NSManaged var doctorName : String?
-    @NSManaged var doctorBio: String?
-    
-    // donations
-    @NSManaged var operationName: String?
-    @NSManaged var totalDonated : String? // in dollars
-    @NSManaged var numDonations: String?
-    @NSManaged var costPerOperation: String? // in dollars
 
-    override init() {
-        super.init()
-    }
+    @NSManaged var doctorName: String?
+    @NSManaged var doctorImage: String?
+    @NSManaged var doctorBanner: String?
+    @NSManaged var doctorQuote: String?
+    @NSManaged var doctorBio: String?
+    @NSManaged var treatmentName: String?
+    @NSManaged var treatmentImage: String?
+    @NSManaged var treatmentDescription: String?
+    @NSManaged var stories: String?
+    @NSManaged var location: String?
+    @NSManaged var amountNeeded: NSString?
+    @NSManaged var totalAmount: NSString?
+    
     override class func initialize() {
         var onceToken : dispatch_once_t = 0;
         dispatch_once(&onceToken) {
@@ -36,6 +32,5 @@ class Project : PFObject, PFSubclassing {
     
     class func parseClassName() -> String! {
         return "Project"
-    }
-
+    }    
 }

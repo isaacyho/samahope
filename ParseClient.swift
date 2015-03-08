@@ -9,11 +9,10 @@
 import Foundation
 
 class ParseClient {
-    
-    class func loadEvents() -> Array<Event> {
-        var events = Array< Event >()
+    class func loadEvents() -> [Event] {
+        var events = [Event]()
         var query = Event.query()
-        //query.includeKey( "projects" )
+        
         query.findObjectsInBackgroundWithBlock {
             (objects: [AnyObject]!, error: NSError!) -> Void in
             if error == nil {
@@ -21,33 +20,22 @@ class ParseClient {
                 println("Successfully retrieved \(objects.count) objects.")
                 
                 // Do something with the found objects
-                if let objects = objects as? [PFObject] {
-                    for object in objects {
-                        println(object.objectId)
-                        var event = object as Event
-                        var pp = event["projects"] as NSArray
-                        
-                        event.projects = Array<Project>()
-                        for i in 0...pp.count {
-                            var myp = pp[ i ] as PFObject
+                if let events = objects as? [Event] {
+                    for event in events {
+                        var projectPointers = event["projects"] as [PFObject]
+                        event.projects = [Project]()
+                        for projectPointer in projectPointers {
                             var projectQuery = Project.query()
-                            projectQuery.whereKey( "objectId", equalTo: myp.objectId)
+                            var projectResponse = projectQuery.getObjectWithId(projectPointer.objectId)
                             
-                            var projectObjects = projectQuery.findObjects()
-                            if let projectObjects = projectObjects as? [PFObject] {
-                                for projectObject in projectObjects {
-                                    var project = projectObject as Project
-                                    
-                                    println( "this project: \(project)" ) 
-                                    event.projects.append( project )
-                                }
+                            if let project = projectResponse as? Project {
+                                
+                                println(project.doctorImage!)
+                                event.projects.append(project)
+                            } else {
+                                println("That was not a project :(!")
                             }
-                            
                         }
-
-                        // done loading event
-                        events.append( event )
-
                     }
                 }
             } else {
@@ -55,16 +43,12 @@ class ParseClient {
                 println("Error: \(error) \(error.userInfo!)")
             }
         }
-
-        
         return events
-        
-
     }
+    
     class func buildTestDb() {
         var p = Project()
-        p.shortDescription = "Save all the arms in the world"
-        p.name = "save arms"
+        p.doctorBio = "Save all the arms in the world z"
         p.doctorName = "Dr. Seymour Butts"
         
         var e = Event()
@@ -78,7 +62,6 @@ class ParseClient {
             println( "save failed" )
         }
     }
-    
     
     // just for sanity--retrieves all the doctor records
     class func testQuery() {
