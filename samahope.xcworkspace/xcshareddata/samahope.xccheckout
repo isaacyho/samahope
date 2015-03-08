@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5221F673-C1D4-46F3-9062-4287EEAD8339</string>
+	<key>IDESourceControlProjectName</key>
+	<string>samahope</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>267F99A49D3A11A73136E52B75372F3DB49BA588</key>
+		<string>github.com:newtonry/samahope.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>samahope.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>267F99A49D3A11A73136E52B75372F3DB49BA588</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:newtonry/samahope.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>267F99A49D3A11A73136E52B75372F3DB49BA588</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>267F99A49D3A11A73136E52B75372F3DB49BA588</string>
+			<key>IDESourceControlWCCName</key>
+			<string>samahope</string>
+		</dict>
+	</array>
+</dict>
+</plist>
